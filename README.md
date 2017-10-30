@@ -1,4 +1,5 @@
-#This is collection all the programs and demo which explain C# and .NET related concepts.
+This is collection all the programs and demo which explain C# and .NET related concepts.
+----------------------------------------------------------------------------------------
 
 ######**S.No.	Folder Name								Description**
 1.		BinarySerialization						Explains Binary Serialization
