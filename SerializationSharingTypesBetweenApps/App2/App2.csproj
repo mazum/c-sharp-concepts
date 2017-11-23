@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E73FCD5-65A7-45EE-91B2-86A2EA499640}</ProjectGuid>
+    <ProjectGuid>{66547B4D-0AAD-42E0-BF61-1A61BDFDF38C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App1</RootNamespace>
-    <AssemblyName>App1</AssemblyName>
+    <RootNamespace>App2</RootNamespace>
+    <AssemblyName>App2</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TypesLib1\TypesLib1.csproj">
-      <Project>{c2f464d0-7507-462b-85e0-8ba99a97800e}</Project>
-      <Name>TypesLib1</Name>
+    <ProjectReference Include="..\TypesLib2\TypesLib2.csproj">
+      <Project>{73f0f2e9-29c8-4d28-a5c9-ee898641f95c}</Project>
+      <Name>TypesLib2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
